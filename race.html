@@ -1,0 +1,240 @@
+<html>
+
+<head>
+<title>World of Roguecraft</title>
+<meta name="keywords" content="World of Warcraft, Warcraft, Rogues, Rogue Talent's, Rogue, World of Roguecraft">
+
+<script type="text/javascript">
+
+/****************************************************
+*	        DOM Image rollover:
+*		by Chris Poole
+*		http://chrispoole.com
+*               Script featured on http://www.dynamicdrive.com
+*		Keep this notice intact to use it :-)
+****************************************************/
+
+function init() {
+  if (!document.getElementById) return
+  var imgOriginSrc;
+  var imgTemp = new Array();
+  var imgarr = document.getElementsByTagName('img');
+  for (var i = 0; i < imgarr.length; i++) {
+    if (imgarr[i].getAttribute('hsrc')) {
+        imgTemp[i] = new Image();
+        imgTemp[i].src = imgarr[i].getAttribute('hsrc');
+        imgarr[i].onmouseover = function() {
+            imgOriginSrc = this.getAttribute('src');
+            this.setAttribute('src',this.getAttribute('hsrc'))
+        }
+        imgarr[i].onmouseout = function() {
+            this.setAttribute('src',imgOriginSrc)
+        }
+    }
+  }
+}
+onload=init;
+
+</script>
+
+</head>
+
+<body bgcolor="#303030" text="#ffffff" link="#303030" vlink="#303030" alink="#303030">
+
+<div style="position: absolute; top:0; left:0; width: 452; height: 1000">
+<table bgcolor="#111111" width="235" height="1000" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="left">
+<font size="3" face="Tahoma, Verdana">
+</font></td>
+</tr></table>
+</div>
+
+<div style="position:absolute;top:0px;left:0px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/banner.jpg"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:225px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/main.gif"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:290px;left:10px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="index.html"><img src="images/news.gif" hsrc="images/news.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:340px;left:10px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="forums"><img src="images/forums.gif" hsrc="images/forums.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:395px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="links.html"><img src="images/links.gif" hsrc="images/links.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:455px;left:14px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/rogueinfo.gif"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:520px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="classrole.html"><img src="images/classrole.gif" hsrc="images/classrole.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:575px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="race.html"><img src="images/race.gif" hsrc="images/race.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:630px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="skills.html"><img src="images/skills.gif" hsrc="images/skills.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:685px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="talents.html"><img src="images/talents.gif" hsrc="images/talents.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:740px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="lockpicking.html"><img src="images/lockpicking.gif" hsrc="images/lockpicking.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:795px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="guides.html"><img src="images/guides.gif" hsrc="images/guides.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:855px;left:14px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/archives.gif"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:920px;left:10px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="anews.html"><img src="images/news.gif" hsrc="images/news.gif"></a></td>
+</tr>
+</div>
+
+<div style="position: absolute; top:280; left:250; width: 452; height: 60">
+<table width="750" height="50" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="left">
+<font size="3" face="Tahoma, Verdana">
+<b>Rogue races and racial abilities</b><br>
+<br>
+<b><u>Alliance:</b></u><br>
+<br>
+<b>Dwarf:</b><br>
+<u>Find Treasure</u> - Lets you sense treasure. Treasure appears on your mini-map as a yellow dot. <i>(Activate)</i><br>
+<u>Stoneform</u>  Makes you immune to bleed, poison, and disease. 5% increase to armor while movement speed is decreased to 70% of normal. Last 20 seconds, 3 minute cooldown. <i>(Activate)</i><br>
+<u>Frost Resistance</u>  All Dwarves get a +10 to Frost Resistance <i>(Passive)</i><br>
+<u>Gun Mastery</u>  Dwarves get +5 to Gun skill <i>(Passive)</i><br>
+<br>
+<b>Gnome:</b><br>
+<u>Escape Artist</u> - Activate to break out of a Root or Snare effect - 1.5 sec cast - 1 min cooldown <i>(Activate)</i><br>
+<u>Expansive Mind</u>  Increase Intelligence by 5% <i>(Passive)</i><br>
+<u>Arcane Resistance</u> - All Gnomes get +10 to Arcane Resistance <i>(Passive)</i><br>
+<u>Technologist</u> - 15 skill bonus to Engineering <i>(Passive)</i><br>
+<br>
+<b>Human:</b><br>
+<u>Perception</u> - Activate to increase stealth detection radius by 10 yards - lasts 20 sec - 3 min cooldown <i>(Activate)</i><br>
+<u>The Human Spirit</u> - Increase Spirit by 5% <i>(Passive)</i><br>
+<u>Diplomacy</u> - 10% bonus to faction point gain <i>(Passive)</i><br>
+<u>Sword Specialization</u> - Humans get +5 to Sword skill <i>(Passive)</i><br>
+<u>Mace Specialization</u> - Humans get +5 to Mace skill <i>(Passive)</i><br>
+<br>
+Night Elf:<br>
+<u>Shadowmeld</u> - Night Elves are able to enter Stealth while standing in place, breaks when you move. 10 second cooldown <i>(Activate)</i><br>
+<u>Wisp Spirit</u> - Transform into a wisp when you die, Allowing you to move 50% faster than normal <i>(Passive)</i><br>
+<u>Quickness</u> - Night Elves receive 1% increase to dodge <i>(Passive)</i><br>
+<u>Nature Resistance</u> - All Gnomes get +10 to Nature Resistance <i>(Passive)</i><br>
+<br>
+Horde:<br>
+<br>
+Orc:<br>
+<u>Blood Fury</u> - Activate to increase Strength by 25% but take 5% health loss every 3 seconds - lasts 20 sec - 2 min cooldown <i>(Activate)</i><br>
+<u>Hardiness</u> - 25% resistance to stun and knockout effects <i>(Passive)</i><br>
+<u>Command</u> - Pet melee damage increased by 5% <i>(Passive)</i><br>
+<u>Axe Specialization</u> - Orcs get +5 to Axe skill <i>(Passive)</i><br>
+<br>
+Troll:<br>
+<u>Berserk</u> - Increases attack and casting speed by 25%. Increases damage taken by 10%. Can only use after a critical strike against you. Last 20 seconds, 2 minute cooldown. <i>(Activate)</i><br>
+<u>Beast Slaying</u>  Trolls receive a 5% damage bonus when fighting beasts. <i>(Passive)</i><br>
+<u>Regeneration</u> - Health regeneration increased by 10% even when in combat <i>(Passive)</i><br>
+<u>Throwing Specialization</u>  Trolls receive +5 to throwing weapons <i>(Passive)</i><br>
+<br>
+Undead:<br>
+<u>Will of the Forsaken</u> - Activate to become immune to fear, sleep, and charm effects - lasts 20 sec - 3 min cooldown <i>(Activate)</i><br>
+<u>Cannibalize</u> - Increase health regeneration by 200% while consuming a corpse - lasts 15 sec - 3 min cooldown <i>(Activate)</i><br>
+<u>Underwater Breathing</u> - Underwater breath increased by 300% <i>(Passive)</i><br>
+<u>Shadow Resistance</u> - All Undead get +10 Shadow Resistance <i>(Passive)</i><br>
+<br>
+<b><u>Deciding what race you want to be:</u></b><br>
+<br>
+There are several factors you will want to look at when you are deciding what will be the best race for you.  The following is a list of what you should base your opinions on.<br>
+<br>
+<b>1.</b> Appearance<br>
+<b>2.</b> Faction (Horde/Alliance)<br>
+<b>3.</b> Racial Abilities<br>
+<b>4.</b> Starting Stats<br>
+<b>5.</b> Being Unique<br>
+<br>
+<u>Appearance</u>  Its all about what race you find most appealing when it comes to looking at them.  For me this is the most important decision as no matter what race you choose there isnt such a big difference that you will be gimping yourself.   Personally I enjoy the goofiness of being a Gnome and this was all I based my decision on.  (Because they didnt have Halflings)<br>
+<br>
+<u>Faction</u>  Do you want to be Horde or Alliance?  This decision will instantly cut the selection of what race you will choose by half.<br>
+<br>
+<u>Racial Abilities</u>  This is one of the most important aspects of each race you will want to base your decision on.  Despite what you might hear no classes abilities are worthless.  Some could use an improvement to bring them in line with other racial abilities.  How ever for the races with the strong Rogue abilities for each faction I would recommend you look into Night Elf, and Undead. Also another consideration for PVP is the Gnomes size.  Being small in stature it makes you harder to see in mass pvp and more able to hide amongst the games terrain.<br>
+<br>
+<i>Example: When comparing the Escape Artist with Will of the Forsaken, one is instant cast that breaks any of its listed affects and makes the user immune for 20 seconds.  With Escape Artist having a 1.5 second cast time and able to be rooted again right away.  Normally by the time Escape Artist goes off the effect has worn off.  (Being hit extends the cast time and it can be interrupted when using it.)  Still its not a terrible ability just could use a slight improvement.  Dont forget that just because one race might have much better abilities than another race does not mean Blizzard isnt going to correct the issue in the future as they do have a goal of having all abilities balanced and actively work towards accomplishing it.</i><br>
+<br>
+When deciding on racial abilities be sure to remember that some abilities are worthless to you as a Rogue the following is a list of those abilities that shouldnt influence your decision.<br>
+<br>
+<b>Command</b> - Pet melee damage increased by 5%<br>
+<b>Axe Specialization</b> - Orcs get +5 to Axe skill<br>
+<b>Expansive Mind</b>  Increase Intelligence by 5%<br>
+<br>
+<u>Starting Stats</u> - Once you hit level 60 starting stats really wont make you any less of a Rogue than any other race the difference will be very minor at best.  With that in mind if you would still like to see what class has what stats I recommend checking out the starting stats for Rogues at wow.allakhazam.com.  For Rogues the most important stats are Agility, Stamina, and to a lesser extent Strength.<br>
+<br>
+<u>Unique</u>  Does being unique matter to you at all?  The majority of players are either Night Elves or Undead.  If not being like the majority of other players matters to you then I would suggest one of the other options. <i>(GNOMES! *wink, wink*)</i><br>
+<br>
+In all seriousness all races are roughly equal while some might come out slightly ahead in some ways when compaired to another when compairing stats and abilities it's not enough to where I would sacrafice what I want to be when compaired to what I should be to be able to keep up with other races you'll do fine either way.<br>
+<br>
+<i>Note: Its possible that Shadow Meld gives you a +1 to your stealth level similar to the talent Master of Deception.  How ever I saw a Blizzard Poster mention back in beta when they first came out that Shadow Meld did not affect stealth in any way.  So while its possible that Shadow Meld increases your stealth level I would take that information with a grain of salt.  Unless Blizzard has come out with some information confirming that it does in fact affect it.  If any one knows for sure please let me know.  (Knows for sure as in theyve seen it confirmed by a Blizzard Employee not through a friend of a friend)</i><br>
+</font></td>
+</tr></table>
+</div>
+
+<div style="position:absolute;top:2600px;left:0px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/bottom.jpg"></td>
+</tr>
+</div>
+
+<div style="position: absolute; top:2610; left:300; width: 400; height: 10">
+<table width="400" height="10" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="center">
+<font size="2" face="Tahoma, Verdana">
+Copyright © 2025 World of Roguecraft. All rights reserved
+</font></td>
+</tr></table>
+</div>
+
+</body>
+</html>

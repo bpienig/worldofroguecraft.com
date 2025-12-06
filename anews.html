@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>World of Roguecraft</title>
+<meta name="keywords" content="World of Warcraft, Warcraft, Rogues, Rogue Talent's, Rogue, World of Roguecraft">
+
+<script type="text/javascript">
+
+/****************************************************
+*	        DOM Image rollover:
+*		by Chris Poole
+*		http://chrispoole.com
+*               Script featured on http://www.dynamicdrive.com
+*		Keep this notice intact to use it :-)
+****************************************************/
+
+function init() {
+  if (!document.getElementById) return
+  var imgOriginSrc;
+  var imgTemp = new Array();
+  var imgarr = document.getElementsByTagName('img');
+  for (var i = 0; i < imgarr.length; i++) {
+    if (imgarr[i].getAttribute('hsrc')) {
+        imgTemp[i] = new Image();
+        imgTemp[i].src = imgarr[i].getAttribute('hsrc');
+        imgarr[i].onmouseover = function() {
+            imgOriginSrc = this.getAttribute('src');
+            this.setAttribute('src',this.getAttribute('hsrc'))
+        }
+        imgarr[i].onmouseout = function() {
+            this.setAttribute('src',imgOriginSrc)
+        }
+    }
+  }
+}
+onload=init;
+
+</script>
+
+</head>
+
+<body bgcolor="#303030" text="#ffffff" link="#303030" vlink="#303030" alink="#303030">
+
+<div style="position: absolute; top:0; left:0; width: 452; height: 1000">
+<table bgcolor="#111111" width="235" height="1000" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="left">
+<font size="3" face="Tahoma, Verdana">
+</font></td>
+</tr></table>
+</div>
+
+<div style="position:absolute;top:0px;left:0px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/banner.jpg"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:225px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/main.gif"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:290px;left:10px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="index.html"><img src="images/news.gif" hsrc="images/news.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:340px;left:10px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="forums"><img src="images/forums.gif" hsrc="images/forums.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:395px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="links.html"><img src="images/links.gif" hsrc="images/links.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:455px;left:14px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/rogueinfo.gif"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:520px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="classrole.html"><img src="images/classrole.gif" hsrc="images/classrole.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:575px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="race.html"><img src="images/race.gif" hsrc="images/race.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:630px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="skills.html"><img src="images/skills.gif" hsrc="images/skills.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:685px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="talents.html"><img src="images/talents.gif" hsrc="images/talents.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:740px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="lockpicking.html"><img src="images/lockpicking.gif" hsrc="images/lockpicking.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:795px;left:12px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="guides.html"><img src="images/guides.gif" hsrc="images/guides.gif"></a></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:855px;left:14px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/archives.gif"></td>
+</tr>
+</div>
+
+<div style="position:absolute;top:920px;left:10px;width:0px;height:0px;">
+<tr valign="top">
+<td><a href="anews.html"><img src="images/news.gif" hsrc="images/news.gif"></a></td>
+</tr>
+</div>
+
+<div style="position: absolute; top:250; left:250; width: 452; height: 60">
+<table width="150" height="50" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="left">
+<font size="3" face="Tahoma, Verdana"><b>
+<b><u>Archived News:</b></u><br>
+</font></b></td>
+</tr></table>
+</div>
+
+<div style="position: absolute; top:280px; left:250px; width:452px; height:60px">
+<table width="700" height="50" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="left">
+<font size="2" face="Tahoma, Verdana">
+<b>June/15/2005</b><br>
+Added Talent section with cookie breakdown and added more guides.<br>
+<br>
+<b>May/25/2005</b><br>
+Added Racial comparison page.  It still needs a little work but it's a good start.<br>
+<br>
+<b>May/06/2005</b><br>
+Added a new guide how to find and solo Bannok Grimaxe and did some general maintenance.<br>
+<br>
+<b>April/28/2005</b><br>
+The new site lay out is live! I am very happy with how it's turned out and hope to attract more people with the new look.<br>
+<br>
+<b>April/21/2005</b><br>
+Added guides and more content to the site.  Working hard on revamp which is soon to come!<br>
+</font></td>
+</tr></table>
+</div>
+
+<div style="position:absolute;top:1000px;left:0px;width:0px;height:0px;">
+<tr valign="top">
+<td><img src="images/bottom.jpg"></td>
+</tr>
+</div>
+
+<div style="position: absolute; top:1010px; left:300px; width: 400px; height: 10" px>
+<table width="0" height="0" border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td align="center">
+<font size="2" face="Tahoma, Verdana">
+Copyright © 2025 World of Roguecraft. All rights reserved
+</font></td>
+</tr></table>
+</div>
+
+</body>
+</html>
