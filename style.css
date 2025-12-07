@@ -14,7 +14,7 @@ body {
 }
 
 /* Left navigation panel */
-.sidebar-nav {
+.sidebar-nav-panel {
   background-color: #111111;
   position: absolute;
   top: 0;
@@ -25,88 +25,118 @@ body {
 
 /* Sidebar navigation item */
 
+/* Sidebar main section wrapper */
+.sidebar-nav-main {
+  position: absolute;
+  top: 225px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+}
+
 /* Individual sidebar navigation items */
 .sidebar-nav-item-main {
   position: absolute;
-  top: 225px;
-  left: 12px;
+  top: 0px;
+  left: 0px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-news {
   position: absolute;
-  top: 290px;
-  left: 10px;
+  top: 65px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-links {
   position: absolute;
-  top: 340px;
-  left: 12px;
+  top: 115px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
+
+/* Sidebar rogue info section wrapper */
+.sidebar-nav-rogueinfo {
+  position: absolute;
+  top: 440px;
+  left: 14px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Sidebar rogue info section wrapper */
 .sidebar-nav-item-rogueinfo {
   position: absolute;
-  top: 455px;
-  left: 14px;
+  top: 0px;
+  left: 0px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-classrole {
   position: absolute;
-  top: 520px;
-  left: 12px;
+  top: 65;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-race {
   position: absolute;
-  top: 575px;
-  left: 12px;
-  width: 0px;
+  top: 115px;
+  left: 5px;
+  width: 5px;
   height: 0px;
 }
 .sidebar-nav-item-skills {
   position: absolute;
-  top: 630px;
-  left: 12px;
+  top: 165px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-talents {
   position: absolute;
-  top: 685px;
-  left: 12px;
+  top: 215px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-lockpicking {
   position: absolute;
-  top: 740px;
-  left: 12px;
+  top: 265px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-guides {
   position: absolute;
-  top: 795px;
-  left: 12px;
+  top: 315px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
-.sidebar-nav-item-archives {
+
+/* Sidebar archives section wrapper */
+.sidebar-nav-archives {
   position: absolute;
   top: 855px;
   left: 14px;
+  width: 0px;
+  height: 0px;  
+}
+/* Individual sidebar navigation items */
+.sidebar-nav-item-archives {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 0px;
   height: 0px;
 }
 .sidebar-nav-item-anews {
   position: absolute;
-  top: 920px;
-  left: 10px;
+  top: 65px;
+  left: 5px;
   width: 0px;
   height: 0px;
 }
