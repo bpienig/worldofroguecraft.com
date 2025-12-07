@@ -1,0 +1,288 @@
+body {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+/* Top banner image */
+.top-banner {
+  z-index: 999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Left navigation panel */
+.sidebar-nav {
+  background-color: #111111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 1000px;
+}
+
+/* Sidebar navigation item */
+
+/* Individual sidebar navigation items */
+.sidebar-nav-item-main {
+  position: absolute;
+  top: 225px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-news {
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-links {
+  position: absolute;
+  top: 340px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-rogueinfo {
+  position: absolute;
+  top: 455px;
+  left: 14px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-classrole {
+  position: absolute;
+  top: 520px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-race {
+  position: absolute;
+  top: 575px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-skills {
+  position: absolute;
+  top: 630px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-talents {
+  position: absolute;
+  top: 685px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-lockpicking {
+  position: absolute;
+  top: 740px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-guides {
+  position: absolute;
+  top: 795px;
+  left: 12px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-archives {
+  position: absolute;
+  top: 855px;
+  left: 14px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-anews {
+  position: absolute;
+  top: 920px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Center news section wrapper */
+.main-content {
+  position: absolute;
+  top: 240px;
+  left: 250px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Center news section header */
+.main-content-header {
+  position: absolute;
+  top: 0px;
+  left: 105px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Center news section table */
+.main-content-table {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 452px;
+  height: 60px;
+}
+
+/* Right links section wrapper */
+.links-section {
+  position: absolute;
+  top: 245px;
+  left: 680px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Right links section item */
+.links-section-item {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+/* Right links section description */
+.links-section-desc {
+  position: absolute;
+  top: 0px;
+  left: 125px;
+  width: 220px;
+  height: 60px;
+}
+
+/* Right links section description 2 */
+.links-section-desc2 {
+  position: absolute;
+  top: 125px;
+  left: 120px;
+  width: 220px;
+  height: 60px;
+}
+
+/* Updates section wrapper */
+.updates-section {
+  position: absolute;
+  top: 500px;
+  left: 680px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Updates section header */
+.updates-section-header {
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Updates section item */
+.updates-section-item {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+/* Updates section date */
+.updates-section-date {
+  position: absolute;
+  top: 70px;
+  left: 125px;
+  width: 150px;
+  height: 60px;
+}
+
+/* Updates section description */
+.updates-section-desc {
+  position: absolute;
+  top: 90px;
+  left: 125px;
+  width: 200px;
+  height: 60px;
+}
+
+/* Updates section date 2 */
+.updates-section-date2 {
+  position: absolute;
+  top: 180px;
+  left: 125px;
+  width: 150px;
+  height: 60px;
+}
+
+/* Updates section description 2 */
+.updates-section-desc2 {
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  width: 200px;
+  height: 60px;
+}
+
+/* Thoughts section wrapper */
+.thoughts-wrapper {
+  position: absolute;
+  top: 800px;
+  left: 740px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Thoughts section header */
+.thoughts-header-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Thoughts section title */
+.thoughts-title-text {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 150px;
+  height: 60px;
+}
+
+/* Thoughts section description */
+.thoughts-desc-text {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 140px;
+  height: 60px;
+}
+
+/* Bottom image */
+.footer-img {
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+/* Copyright section */
+.footer-copyright {
+  position: absolute;
+  top: 1010px;
+  left: 300px;
+  width: 400px;
+  height: 10px;
+}
