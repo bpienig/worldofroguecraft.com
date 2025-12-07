@@ -60,7 +60,7 @@ body {
 /* Sidebar rogue info section wrapper */
 .sidebar-nav-rogueinfo {
   position: absolute;
-  top: 440px;
+  top: 420px;
   left: 14px;
   width: 0px;
   height: 0px;
@@ -120,7 +120,7 @@ body {
 /* Sidebar archives section wrapper */
 .sidebar-nav-archives {
   position: absolute;
-  top: 855px;
+  top: 820px;
   left: 14px;
   width: 0px;
   height: 0px;  
@@ -136,6 +136,13 @@ body {
 .sidebar-nav-item-anews {
   position: absolute;
   top: 65px;
+  left: 5px;
+  width: 0px;
+  height: 0px;
+}
+.sidebar-nav-item-asiteupdates {
+  position: absolute;
+  top: 115px;
   left: 5px;
   width: 0px;
   height: 0px;
