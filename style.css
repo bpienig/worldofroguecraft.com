@@ -333,6 +333,10 @@ body {
   width: 58px;
 }
 
+table {
+  font-size: 14px;
+}
+
 iframe {
   overflow: hidden;
   height: 514px;
